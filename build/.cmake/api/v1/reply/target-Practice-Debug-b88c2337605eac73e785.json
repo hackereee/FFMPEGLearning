@@ -11,6 +11,7 @@
 		"commands" : 
 		[
 			"add_executable",
+			"install",
 			"target_link_libraries",
 			"target_include_directories"
 		],
@@ -26,19 +27,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 16,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 19,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 23,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 24,
 				"parent" : 0
 			}
 		]
@@ -55,15 +62,15 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
 					"path" : "/Users/dong/develop/workspace/dong/FFMPEGLearning/build"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
 					"path" : "/Users/dong/develop/workspace/dong/FFMPEGLearning/src/demo/Practice/{PROJECT_SOURCE_DIR}/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"path" : "/Users/dong/develop/workspace/dong/FFMPEGLearning/src/demo/Library/MathFunctions"
 				}
 			],
@@ -86,11 +93,25 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
+			"backtrace" : 3,
 			"id" : "MathFunctions::@742f1924b0b2e2878db6"
 		}
 	],
 	"id" : "Practice::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/Users/dong/develop/demo/cmake/Practice"
+		}
+	},
 	"link" : 
 	{
 		"commandFragments" : 
@@ -104,7 +125,7 @@
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 3,
 				"fragment" : "MathFunctions/libMathFunctions.a",
 				"role" : "libraries"
 			}

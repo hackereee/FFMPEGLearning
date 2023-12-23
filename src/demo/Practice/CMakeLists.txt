@@ -1,3 +1,4 @@
+set(CMAKE_INSTALL_PREFIX "/Users/dong/develop/demo/cmake/Practice")
 cmake_minimum_required(VERSION 3.10)
 project(Practice VERSION 1.0.222)
 set(CMAKE_CXX_STANDARD 11)
@@ -21,3 +22,6 @@ endif()
 
 # target_include_directories(Practice PUBLIC "${PROJECT_BINARY_DIR}" "{PROJECT_SOURCE_DIR}/Library/MathFunctions" "{PROJECT_SOURCE_DIR}/include" )
 target_include_directories(Practice PUBLIC "${PROJECT_BINARY_DIR}" "{PROJECT_SOURCE_DIR}/include" )
+
+install(TARGETS Practice DESTINATION bin)
+install(FILES "${PROJECT_BINARY_DIR}/PracticeConfig.h" DESTINATION include)

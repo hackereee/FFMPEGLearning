@@ -10,7 +10,8 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ce2671a8528fc2ad07a0.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -24,7 +25,8 @@
 				},
 				{
 					"build" : "MathFunctions",
-					"jsonFile" : "directory-MathFunctions-Debug-adce52d00858e45f484c.json",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-MathFunctions-Debug-30caed8785544bc44d4e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -60,14 +62,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "MathFunctions::@742f1924b0b2e2878db6",
-					"jsonFile" : "target-MathFunctions-Debug-aab878659bee622cee11.json",
+					"jsonFile" : "target-MathFunctions-Debug-7e84fa58e0ff9fa03714.json",
 					"name" : "MathFunctions",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Practice::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Practice-Debug-3e2cbad55310b8092a5d.json",
+					"jsonFile" : "target-Practice-Debug-b88c2337605eac73e785.json",
 					"name" : "Practice",
 					"projectIndex" : 0
 				}
